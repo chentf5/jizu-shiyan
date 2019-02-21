@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Sign_Ext.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Reg_32bits.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/RAM.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/PC_Add_Imm.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/PC_add4.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/IR.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Ins_Mem.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Ext_for_Jump.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Data_Sel4_32bits.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Data_Sel3_5bits.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/Data_Sel2_32bits.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/CU.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/ALU_32bits.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sources_1/new/cpu.v"
+verilog xil_defaultlib  "../../../DCPU.srcs/sim_1/new/test_cpu.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

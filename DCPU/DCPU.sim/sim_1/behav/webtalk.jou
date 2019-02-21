@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec 19 20:05:29 2018
+# Process ID: 17580
+# Log file: C:/Users/IT/Desktop/c21/jizu/333/DCPU/DCPU.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/IT/Desktop/c21/jizu/333/DCPU/DCPU.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/IT/Desktop/c21/jizu/333/DCPU/DCPU.sim/sim_1/behav/xsim.dir/test_cpu_behav/webtalk/xsim_webtalk.tcl -notrace

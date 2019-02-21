@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:40]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:41]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:42]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:43]
+ERROR: [VRFC 10-1040] module ROM ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:24]

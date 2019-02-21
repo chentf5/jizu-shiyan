@@ -1,0 +1,316 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 20 09:44:05 2018
+# Process ID: 1996
+# Log file: C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/vivado.log
+# Journal file: C:/Users/IT/Desktop/c21/jizu/danzhouqicpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 697.000 ; gain = 136.156
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCircleCPUTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto b884e9f66f114c0b9c9fec2adf78fe4d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCircleCPUTest_behav xil_defaultlib.SingleCircleCPUTest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <singleStyleCPU> not found while processing module instance <uut> [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sim_1/new/cpu_sim.v:38]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/elaborate.log' file for more information.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:40]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:41]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:43]
+ERROR: [VRFC 10-91] RST is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:44]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:51]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ReadData2 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:52]
+ERROR: [VRFC 10-1040] module RegFile ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RegFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SingleCircleCPUTest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj SingleCircleCPUTest_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:40]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:41]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:42]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:43]
+ERROR: [VRFC 10-1040] module ROM ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:24]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:40]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:41]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:42]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:43]
+ERROR: [VRFC 10-1040] module ROM ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:24]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav'
+"xvlog -m64 --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/signzeroextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signzeroextend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:40]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:41]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:42]
+ERROR: [VRFC 10-91] men is not declared [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:43]
+ERROR: [VRFC 10-1040] module ROM ignored due to previous errors [C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.srcs/sources_1/new/ROM.v:24]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/IT/Desktop/c21/jizu/danzhouqicpu/danzhouqicpu.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 20 12:24:49 2018...
